@@ -59,7 +59,7 @@ export function CreateRoomForm() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input {...field} placeholder="Dev Finder Is Awesome" />
+                <Input {...field} />
               </FormControl>
               <FormDescription>This is your public room name.</FormDescription>
               <FormMessage />
@@ -76,7 +76,7 @@ export function CreateRoomForm() {
               <FormControl>
                 <Input
                   {...field}
-                  placeholder="Im working on a side project, come join me"
+                  
                 />
               </FormControl>
               <FormDescription>
@@ -96,7 +96,7 @@ export function CreateRoomForm() {
               <FormControl>
                 <Input
                   {...field}
-                  placeholder="https://github.com/webdevcody/dev-finder"
+                  
                 />
               </FormControl>
               <FormDescription>
@@ -114,7 +114,7 @@ export function CreateRoomForm() {
             <FormItem>
               <FormLabel>Tags</FormLabel>
               <FormControl>
-                <Input {...field} placeholder="typescript, nextjs, tailwind" />
+                <Input {...field} />
               </FormControl>
               <FormDescription>
                 List your programming languages, frameworks, libraries so people
